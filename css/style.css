@@ -148,10 +148,13 @@ ul.menu-fullscreen li{
 ul.menu-fullscreen li > a{
   color:#999999;
   border:0;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
 }
 
 ul.menu-fullscreen li > a:hover{
   color:#ffffff;
+  cursor: pointer;
 }
 
 
@@ -404,6 +407,7 @@ CONTENT
   line-height:22px;
   letter-spacing:1px;
   width:40%;
+  font-family: 'Rubik', sans-serif;
 }
 
         .typed-cursor{
@@ -567,6 +571,7 @@ li.grid-item{
   letter-spacing:1px;
   font-weight:400;
   line-height:50px;
+  font-family: 'Rubik', sans-serif;
 }
 
 li.grid-item img{
@@ -589,6 +594,16 @@ footer{
   height:150px;
   overflow:hidden;
   position:relative;
+  z-index:10;
+}
+.stupidFooter{
+  background:rgb(50, 50, 50);;
+  width:100%;
+  margin-top:150px;
+  height:150px;
+  overflow:hidden;
+  position:fixed;
+  bottom: 0;
   z-index:10;
 }
 
